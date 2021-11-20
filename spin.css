@@ -1,0 +1,39 @@
+body {
+  background-image: url(technical2.png);
+}
+
+text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+}
+#chart {
+  /* position:absolute;
+
+        width:500px;
+        height:500px;
+        top:0;
+        left:0;*/
+}
+#question {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 180px;
+  left: 1000px;
+}
+#question h1 {
+  color: white;
+  text-shadow: -1px 0px #fe0201, 1px 0px #06ffff, -2px 0px #fe0201,
+    2px 0px #06ffff, -3px 0px #fe0201, 3px 0px #06ffff, -4px 0px #fe0201,
+    4px 0px #06ffff, -5px 0px #fe0201, 5px 0px #06ffff;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
